@@ -1,9 +1,9 @@
 const sumAll = function(a, b) {
 
 let total = 
-    do {
+    for ( i = a; i < b; i++ )
     a += a;
-} while (a < b);
+
 };
 
 return total
